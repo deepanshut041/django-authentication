@@ -61,9 +61,9 @@ class PasswordResetAPIView(views.APIView):
     def post(self, request):
         user_profile = self.get_user_profile(request.data.get('email'))
         if user_profile:
-            user_profile.send_password_reset_email(
-                site=get_current_site(request)
-            )  # To be made asynchronous in production
+            # user_profile.send_password_reset_email(
+            #     site=get_current_site(request)
+            # )
             return Response(status=status.HTTP_200_OK)
 
         # Forcing Http status to 200 even if failure to support user privacy.
