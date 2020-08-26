@@ -25,7 +25,7 @@ You need the following to run this app:
 
 ### Setup
 
-1. Get source code: git clone https://github.com/deepanshut041/zonal.git
+1. Get source code: git clone https://github.com/deepanshut041/django-authentication.git
 2. Open a terminal at the repo root for setting up server
     ```bash
     mkvirtualenv environment
