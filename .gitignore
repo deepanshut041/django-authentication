@@ -1,14 +1,3 @@
-.DS_Store
-client/node_modules
-client/e2e
-client/bootstrap-overview
-
-
-backend/bin
-backend/include
-backend/lib
-
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -147,3 +136,5 @@ Thumbs.db
 
 # database
 db.sqlite3
+
+media
