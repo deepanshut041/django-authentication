@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+
+    <!-- To prepare django for loading static files -->
+    {% load static %}
+
+    <!-- And with <link> or <script> tag you actualy import bootstrap files in page -->
+    <link href={% static "css/bootstrap.min.css" %} rel="stylesheet">
 </head>
 <body>
     <div id="content"></div>

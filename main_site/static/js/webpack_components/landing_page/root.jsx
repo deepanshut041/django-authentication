@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 
 class LandingPage extends React.Component {
 
-  componentDidMount(){
-    
+  componentDidMount() {
+
   }
   render() {
     return (
       <div>
-
+        <div class="alert alert-danger" role="alert">Something went wrong</div>
       </div>
     );
   }
