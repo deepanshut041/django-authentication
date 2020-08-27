@@ -140,3 +140,4 @@ Thumbs.db
 db.sqlite3
 
 media
+static-root
